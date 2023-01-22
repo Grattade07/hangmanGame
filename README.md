@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Hangman Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a hangman game created using React and styled using Bootstrap and custom css stylesheets.
 
-## Available Scripts
+This application allows the user to play a round of hangman using interactive buttons to guess the randomly-generated hidden word.
 
-In the project directory, you can run:
+The user has 10 guesses to reveal the hidden word or they will have lost the round and then a new round will start.
 
-### `npm start`
+## How to install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To install the project locally you need to clone the repo using the following steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Go the Repo url from here:
+![image](https://user-images.githubusercontent.com/107367099/213909400-297a9be0-4481-4995-8cd7-c31fe3499e1b.png)
 
-### `npm test`
+* Go to the fodler you want to clone the Repo to and run 'git clone [url]' in your terminal/command prompt to download a clone of the Repo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Once the Repo has been downloaded run 'npm install' in the terminal then run 'npm start' to run the app
 
-### `npm run build`
+## How to use the app
+![image](https://user-images.githubusercontent.com/107367099/213909454-331d318b-c248-4e10-8424-af35ccebce8c.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To start a game round press the 'Start/Restart' button and a random word will be chosen from the internal files for you to guess.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You have 10 guesses to guess the word or else an alert will come up saying you have lost and then a new round will automatically begin.
+![image](https://user-images.githubusercontent.com/107367099/213909573-ea2d0cb6-cabf-45f1-ba80-15161a1794df.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you win then a celebratory alert is shown and a new round will begin.
