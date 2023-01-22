@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/hangmanGame/static/css/main.18785628.css",
+    "main.js": "/hangmanGame/static/js/main.fc0e6955.js",
+    "static/js/787.a2994609.chunk.js": "/hangmanGame/static/js/787.a2994609.chunk.js",
+    "static/media/dictionary.txt": "/hangmanGame/static/media/dictionary.44e8ec3e9e879c0060ce.txt",
+    "static/media/state11.GIF": "/hangmanGame/static/media/state11.43c44828683877de319d.GIF",
+    "static/media/state9.GIF": "/hangmanGame/static/media/state9.b3cc6a935de42be97c69.GIF",
+    "static/media/state8.GIF": "/hangmanGame/static/media/state8.0e27dc2f6c9fdf7b0707.GIF",
+    "static/media/state7.GIF": "/hangmanGame/static/media/state7.806705960ad2dfb878ca.GIF",
+    "static/media/state6.GIF": "/hangmanGame/static/media/state6.6748b91214f61762397d.GIF",
+    "static/media/state5.GIF": "/hangmanGame/static/media/state5.3400158bb87bf7b18449.GIF",
+    "static/media/state4.GIF": "/hangmanGame/static/media/state4.b28f6d17127899f05793.GIF",
+    "static/media/state3.GIF": "/hangmanGame/static/media/state3.5da4c74e65f9258e11e8.GIF",
+    "index.html": "/hangmanGame/index.html",
+    "static/media/state2.GIF": "/hangmanGame/static/media/state2.fa8ee2ae2c77b5581cd5.GIF",
+    "static/media/state1.GIF": "/hangmanGame/static/media/state1.18132e835db9e2f8e497.GIF",
+    "main.18785628.css.map": "/hangmanGame/static/css/main.18785628.css.map",
+    "main.fc0e6955.js.map": "/hangmanGame/static/js/main.fc0e6955.js.map",
+    "787.a2994609.chunk.js.map": "/hangmanGame/static/js/787.a2994609.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18785628.css",
+    "static/js/main.fc0e6955.js"
+  ]
+}
