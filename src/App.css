@@ -1,38 +1,74 @@
+/* styling for the main page */
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 1vh;
+  background-color: rgb(68, 68, 185);
+  height: 100vh;
+}
+
+/* styling for the header */
+#header {
+  color: white;
+  font-weight: 700;
+}
+
+/* styling for the ul containing the letter buttons */
+#alphabetList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  max-width: 50vw;
+  min-width: 264px;
+  gap: 5px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 7px;
+  margin-top: 1vh;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-color: rgb(27, 240, 240);
+}
+
+/* styling for each li*/
+#alphabetList > li {
+  width: 40px;
+  height: 40px;
+}
+
+/* styling for each letter button */
+.alphabetButtons {
+  border-radius: 50px;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: blue;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* stlyling for letter buttons when disabled. Found how to do this from url: https://stackoverflow.com/questions/14750078/style-disabled-button-with-css */
+.alphabetButtons:disabled {
+  border: 2px solid red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* styling for the hangman image */
+#hangmanImage {
+  border: 5px double blue;
+  margin: 1vh 0;
+  max-width: 40vw;
+  min-width: 200px;
+}
+
+/* styling for the display for the word being guessed */
+#wordDisplay {
+  background-color: white;
+  border-radius: 10px;
+  height: 4vh;
+  width: 50vw;
+  margin-top: 5px;
 }
